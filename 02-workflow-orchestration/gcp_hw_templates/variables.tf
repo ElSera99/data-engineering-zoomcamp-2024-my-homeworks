@@ -6,12 +6,12 @@ variable "app_name" {
 
 variable "container_cpu" {
   description = "Container cpu"
-  default     = "2000m"
+  default     = "4000m"
 }
 
 variable "container_memory" {
   description = "Container memory"
-  default     = "2G"
+  default     = "4G"
 }
 
 variable "project_id" {
